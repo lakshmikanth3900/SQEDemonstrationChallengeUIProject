@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="DemoProject" duration-ms="20925" started-at="2021-04-25T09:43:40Z" finished-at="2021-04-25T09:44:01Z">
+  <suite name="DemoProject" duration-ms="13960" started-at="2021-04-25T14:10:18Z" finished-at="2021-04-25T14:10:32Z">
     <groups>
     </groups>
-    <test name="Tests" duration-ms="20925" started-at="2021-04-25T09:43:40Z" finished-at="2021-04-25T09:44:01Z">
+    <test name="Tests" duration-ms="13960" started-at="2021-04-25T14:10:18Z" finished-at="2021-04-25T14:10:32Z">
       <class name="com.sample.test.demo.tests.DemoTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="init" is-config="true" duration-ms="7071" started-at="2021-04-25T09:43:40Z" finished-at="2021-04-25T09:43:47Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="init" is-config="true" duration-ms="4845" started-at="2021-04-25T14:10:18Z" finished-at="2021-04-25T14:10:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="testMandatoryFieldErrorMessage()[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="testMandatoryFieldErrorMessage" duration-ms="3770" started-at="2021-04-25T09:43:47Z" finished-at="2021-04-25T09:43:51Z">
+        <test-method status="PASS" signature="testMandatoryFieldErrorMessage()[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="testMandatoryFieldErrorMessage" duration-ms="3413" started-at="2021-04-25T14:10:23Z" finished-at="2021-04-25T14:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMandatoryFieldErrorMessage -->
-        <test-method status="PASS" signature="testOrderCreation(java.lang.String, double, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="testOrderCreation" duration-ms="1399" started-at="2021-04-25T09:43:51Z" data-provider="getPizzaType" finished-at="2021-04-25T09:43:53Z">
+        <test-method status="PASS" signature="testOrderCreation(java.lang.String, double, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="testOrderCreation" duration-ms="876" started-at="2021-04-25T14:10:26Z" data-provider="getPizzaType" finished-at="2021-04-25T14:10:27Z">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderCreation -->
-        <test-method status="PASS" signature="testOrderCreation(java.lang.String, double, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="testOrderCreation" duration-ms="1310" started-at="2021-04-25T09:43:53Z" data-provider="getPizzaType" finished-at="2021-04-25T09:43:54Z">
+        <test-method status="PASS" signature="testOrderCreation(java.lang.String, double, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="testOrderCreation" duration-ms="1016" started-at="2021-04-25T14:10:27Z" data-provider="getPizzaType" finished-at="2021-04-25T14:10:28Z">
           <params>
             <param index="0">
               <value>
@@ -77,7 +77,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderCreation -->
-        <test-method status="PASS" signature="testOrderCreation(java.lang.String, double, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="testOrderCreation" duration-ms="2300" started-at="2021-04-25T09:43:54Z" data-provider="getPizzaType" finished-at="2021-04-25T09:43:56Z">
+        <test-method status="PASS" signature="testOrderCreation(java.lang.String, double, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="testOrderCreation" duration-ms="1151" started-at="2021-04-25T14:10:28Z" data-provider="getPizzaType" finished-at="2021-04-25T14:10:29Z">
           <params>
             <param index="0">
               <value>
@@ -108,7 +108,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderCreation -->
-        <test-method status="PASS" signature="testOrderCreation(java.lang.String, double, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="testOrderCreation" duration-ms="1763" started-at="2021-04-25T09:43:56Z" data-provider="getPizzaType" finished-at="2021-04-25T09:43:58Z">
+        <test-method status="PASS" signature="testOrderCreation(java.lang.String, double, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="testOrderCreation" duration-ms="842" started-at="2021-04-25T14:10:29Z" data-provider="getPizzaType" finished-at="2021-04-25T14:10:30Z">
           <params>
             <param index="0">
               <value>
@@ -139,7 +139,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderCreation -->
-        <test-method status="PASS" signature="testOrderCreation(java.lang.String, double, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="testOrderCreation" duration-ms="2532" started-at="2021-04-25T09:43:58Z" data-provider="getPizzaType" finished-at="2021-04-25T09:44:00Z">
+        <test-method status="PASS" signature="testOrderCreation(java.lang.String, double, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="testOrderCreation" duration-ms="1135" started-at="2021-04-25T14:10:30Z" data-provider="getPizzaType" finished-at="2021-04-25T14:10:31Z">
           <params>
             <param index="0">
               <value>
@@ -170,7 +170,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOrderCreation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="tearDown" is-config="true" duration-ms="725" started-at="2021-04-25T09:44:01Z" finished-at="2021-04-25T09:44:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="tearDown" is-config="true" duration-ms="657" started-at="2021-04-25T14:10:31Z" finished-at="2021-04-25T14:10:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
