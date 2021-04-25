@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DemoProject" duration-ms="20925" started-at="2021-04-25T09:43:40Z" finished-at="2021-04-25T09:44:01Z">
+    <groups>
+    </groups>
+    <test name="Tests" duration-ms="20925" started-at="2021-04-25T09:43:40Z" finished-at="2021-04-25T09:44:01Z">
+      <class name="com.sample.test.demo.tests.DemoTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="init" is-config="true" duration-ms="7071" started-at="2021-04-25T09:43:40Z" finished-at="2021-04-25T09:43:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testMandatoryFieldErrorMessage()[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="testMandatoryFieldErrorMessage" duration-ms="3770" started-at="2021-04-25T09:43:47Z" finished-at="2021-04-25T09:43:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMandatoryFieldErrorMessage -->
+        <test-method status="PASS" signature="testOrderCreation(java.lang.String, double, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="testOrderCreation" duration-ms="1399" started-at="2021-04-25T09:43:51Z" data-provider="getPizzaType" finished-at="2021-04-25T09:43:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Small 6 Slices - no toppings]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6.75]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Credit Card]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrderCreation -->
+        <test-method status="PASS" signature="testOrderCreation(java.lang.String, double, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="testOrderCreation" duration-ms="1310" started-at="2021-04-25T09:43:53Z" data-provider="getPizzaType" finished-at="2021-04-25T09:43:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Small 6 Slices - 1 topping]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MANGOS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Cash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrderCreation -->
+        <test-method status="PASS" signature="testOrderCreation(java.lang.String, double, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="testOrderCreation" duration-ms="2300" started-at="2021-04-25T09:43:54Z" data-provider="getPizzaType" finished-at="2021-04-25T09:43:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Medium 8 Slices - 2 toppings]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.75]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MANGOS,OLIVES]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Credit Card]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrderCreation -->
+        <test-method status="PASS" signature="testOrderCreation(java.lang.String, double, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="testOrderCreation" duration-ms="1763" started-at="2021-04-25T09:43:56Z" data-provider="getPizzaType" finished-at="2021-04-25T09:43:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Large 10 Slices - no toppings]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.75]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Cash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrderCreation -->
+        <test-method status="PASS" signature="testOrderCreation(java.lang.String, double, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="testOrderCreation" duration-ms="2532" started-at="2021-04-25T09:43:58Z" data-provider="getPizzaType" finished-at="2021-04-25T09:44:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Large 10 Slices - 2 toppings]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OLIVES,MUSHROOMS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Credit Card]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrderCreation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sample.test.demo.tests.DemoTest@64bf3bbf]" name="tearDown" is-config="true" duration-ms="725" started-at="2021-04-25T09:44:01Z" finished-at="2021-04-25T09:44:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sample.test.demo.tests.DemoTest -->
+    </test> <!-- Tests -->
+  </suite> <!-- DemoProject -->
+</testng-results>

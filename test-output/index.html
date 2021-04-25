@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-DemoProject">
+              <span class="suite-name border-passed">DemoProject</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-DemoProject">
+                    <span>C:\Users\shivprsi\Desktop\SQEDEMOChallenge\SQEDemonstrationChallengeUIProject\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-DemoProject">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-DemoProject">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-DemoProject">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-DemoProject">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-DemoProject">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-DemoProject">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-DemoProject" class="hide-methods passed suite-DemoProject"> (hide)</a> <!-- hide-methods passed suite-DemoProject -->
+                      <a href="#" panel-name="suite-DemoProject" class="show-methods passed suite-DemoProject"> (show)</a> <!-- show-methods passed suite-DemoProject -->
+                    </span>
+                    <div class="method-list-content passed suite-DemoProject">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoProject" title="com.sample.test.demo.tests.DemoTest" hash-for-method="testMandatoryFieldErrorMessage">testMandatoryFieldErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoProject" title="com.sample.test.demo.tests.DemoTest" hash-for-method="testOrderCreation(Small 6 Slices - no toppings, 6.75, , 1, Credit Card)">testOrderCreation(Small 6 Slices - no toppings, 6.75, , 1, Credit Card)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoProject" title="com.sample.test.demo.tests.DemoTest" hash-for-method="testOrderCreation(Large 10 Slices - no toppings, 11.75, , 4, Cash)">testOrderCreation(Large 10 Slices - no toppings, 11.75, , 4, Cash)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoProject" title="com.sample.test.demo.tests.DemoTest" hash-for-method="testOrderCreation(Small 6 Slices - 1 topping, 7.5, MANGOS, 2, Cash)">testOrderCreation(Small 6 Slices - 1 topping, 7.5, MANGOS, 2, Cash)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoProject" title="com.sample.test.demo.tests.DemoTest" hash-for-method="testOrderCreation(Medium 8 Slices - 2 toppings, 9.75, MANGOS,OLIVES, 3, Credit Card)">testOrderCreation(Medium 8 Slices - 2 toppings, 9.75, MANGOS,OLIVES, 3, Credit Card)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoProject" title="com.sample.test.demo.tests.DemoTest" hash-for-method="testOrderCreation(Large 10 Slices - 2 toppings, 13.5, OLIVES,MUSHROOMS, 5, Credit Card)">testOrderCreation(Large 10 Slices - 2 toppings, 13.5, OLIVES,MUSHROOMS, 5, Credit Card)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-DemoProject -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-DemoProject" class="panel DemoProject">
+          <div class="suite-DemoProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sample.test.demo.tests.DemoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMandatoryFieldErrorMessage">
+                  </a> <!-- testMandatoryFieldErrorMessage -->
+                  <span class="method-name">testMandatoryFieldErrorMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOrderCreation(Small 6 Slices - no toppings, 6.75, , 1, Credit Card)">
+                  </a> <!-- testOrderCreation(Small 6 Slices - no toppings, 6.75, , 1, Credit Card) -->
+                  <span class="method-name">testOrderCreation</span>
+                  <span class="parameters">(Small 6 Slices - no toppings, 6.75, , 1, Credit Card)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOrderCreation(Large 10 Slices - no toppings, 11.75, , 4, Cash)">
+                  </a> <!-- testOrderCreation(Large 10 Slices - no toppings, 11.75, , 4, Cash) -->
+                  <span class="method-name">testOrderCreation</span>
+                  <span class="parameters">(Large 10 Slices - no toppings, 11.75, , 4, Cash)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOrderCreation(Small 6 Slices - 1 topping, 7.5, MANGOS, 2, Cash)">
+                  </a> <!-- testOrderCreation(Small 6 Slices - 1 topping, 7.5, MANGOS, 2, Cash) -->
+                  <span class="method-name">testOrderCreation</span>
+                  <span class="parameters">(Small 6 Slices - 1 topping, 7.5, MANGOS, 2, Cash)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOrderCreation(Medium 8 Slices - 2 toppings, 9.75, MANGOS,OLIVES, 3, Credit Card)">
+                  </a> <!-- testOrderCreation(Medium 8 Slices - 2 toppings, 9.75, MANGOS,OLIVES, 3, Credit Card) -->
+                  <span class="method-name">testOrderCreation</span>
+                  <span class="parameters">(Medium 8 Slices - 2 toppings, 9.75, MANGOS,OLIVES, 3, Credit Card)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOrderCreation(Large 10 Slices - 2 toppings, 13.5, OLIVES,MUSHROOMS, 5, Credit Card)">
+                  </a> <!-- testOrderCreation(Large 10 Slices - 2 toppings, 13.5, OLIVES,MUSHROOMS, 5, Credit Card) -->
+                  <span class="method-name">testOrderCreation</span>
+                  <span class="parameters">(Large 10 Slices - 2 toppings, 13.5, OLIVES,MUSHROOMS, 5, Credit Card)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoProject-class-passed -->
+        </div> <!-- panel DemoProject -->
+        <div panel-name="test-xml-DemoProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\shivprsi\Desktop\SQEDEMOChallenge\SQEDemonstrationChallengeUIProject\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;10&quot; name=&quot;DemoProject&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;10&quot; name=&quot;Tests&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.sample.test.demo.tests.*&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sample.test.demo.tests.DemoTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Tests --&gt;
+&lt;/suite&gt; &lt;!-- DemoProject --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-DemoProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for DemoProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-DemoProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for DemoProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-DemoProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for DemoProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_DemoProject');
+function tableData_DemoProject() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testMandatoryFieldErrorMessage')
+data.setCell(0, 2, 'com.sample.test.demo.tests.DemoTest')
+data.setCell(0, 3, 3770);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testOrderCreation')
+data.setCell(1, 2, 'com.sample.test.demo.tests.DemoTest')
+data.setCell(1, 3, 2532);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testOrderCreation')
+data.setCell(2, 2, 'com.sample.test.demo.tests.DemoTest')
+data.setCell(2, 3, 2300);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testOrderCreation')
+data.setCell(3, 2, 'com.sample.test.demo.tests.DemoTest')
+data.setCell(3, 3, 1763);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testOrderCreation')
+data.setCell(4, 2, 'com.sample.test.demo.tests.DemoTest')
+data.setCell(4, 3, 1399);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testOrderCreation')
+data.setCell(5, 2, 'com.sample.test.demo.tests.DemoTest')
+data.setCell(5, 3, 1310);
+window.suiteTableData['DemoProject']= { tableData: data, tableDiv: 'times-div-DemoProject'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <div id="times-div-DemoProject">
+              </div> <!-- times-div-DemoProject -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-DemoProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for DemoProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-DemoProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-DemoProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sample.test.demo.tests.DemoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testMandatoryFieldErrorMessage</span>
+                <span class="method-start">7088 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOrderCreation(Small 6 Slices - no toppings, 6.75, , 1, Credit Card)</span>
+                <span class="method-start">10871 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOrderCreation(Small 6 Slices - 1 topping, 7.5, MANGOS, 2, Cash)</span>
+                <span class="method-start">12273 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOrderCreation(Medium 8 Slices - 2 toppings, 9.75, MANGOS,OLIVES, 3, Credit Card)</span>
+                <span class="method-start">13585 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOrderCreation(Large 10 Slices - no toppings, 11.75, , 4, Cash)</span>
+                <span class="method-start">15887 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOrderCreation(Large 10 Slices - 2 toppings, 13.5, OLIVES,MUSHROOMS, 5, Credit Card)</span>
+                <span class="method-start">17653 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20188 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

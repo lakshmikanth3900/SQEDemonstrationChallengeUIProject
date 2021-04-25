@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [DemoProject]">
+  <test thread-count="5" verbose="10" name="Tests(failed)">
+    <classes>
+      <class name="com.sample.test.demo.tests.DemoTest">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="testOrderCreation" invocation-numbers="1 3"/>
+        </methods>
+      </class> <!-- com.sample.test.demo.tests.DemoTest -->
+    </classes>
+  </test> <!-- Tests(failed) -->
+</suite> <!-- Failed suite [DemoProject] -->
